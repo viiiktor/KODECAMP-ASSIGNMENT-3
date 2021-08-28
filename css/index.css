@@ -1,0 +1,299 @@
+* {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.main-content{
+    margin: auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .biograph {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-content .biograph h1{
+    color: coral;
+    padding: 0;
+    margin: 30px;
+}
+
+.main-content .about{
+    color: grey;
+    line-height: 1.5em;
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;  
+} 
+
+.p-picture{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.main-content .name{
+    font-family: cursive;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: coral;
+}
+
+.main-content .logo{
+    padding-top: 20px;
+    padding-bottom: 0;
+
+}
+
+.main-content .logo .faceb{
+    width: 50px;
+    height: 50px;
+}
+
+.main-content .logo .twit{
+    width: 30px;
+    height: 30px;
+    padding: 0 50px 0 50px;
+    padding-bottom: 10px;
+}
+
+.main-content .logo .insta{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.tribute{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 100px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.tribute .tribute_1{
+    width: 55%;
+}
+
+.tribute .tribute_1 .prep_1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: coral;
+    margin-bottom: 0;
+    word-spacing: 10px;
+    padding-bottom: 20px;
+}
+
+.tribute .graph{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.tribute .tribute_2{
+    width: 50%;
+    padding-top: 90px;
+}
+
+.tribute .tribute_2 .prep_2{
+    font-weight: bold;
+    font-size: 25px;
+    color: coral;
+    margin-bottom: 0;
+}
+
+.tribute .tribute_2 .prep_3{
+    /* font-weight: bold; */
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+}
+
+.tribute .tribute_2 .chat-box{
+    display: flex;
+    align-items: center;
+}
+
+.tribute .tribute_2 .chat{
+    width: 35px;
+    height: 35px;
+}
+
+.tribute .tribute_2 .chat_1{
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: monospace;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.text-center{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.text-center .one{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.text-center .two{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+    padding-top: 10px;
+}
+
+.arrow{
+    text-align: center;
+}
+
+.arrow .arrow_1{
+    width: 75px;
+    height: 75px;
+}
+
+.arrow .arrow-text{
+    width: 100%;
+    color: coral;
+}
+
+#portfolio{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+#portfolio .showcase{
+    height: 350px;
+    width: 350px;
+    border-radius: 2cm;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#portfolio .learn{
+    border: solid 3px coral;
+    width: 20%;
+    padding: 25px 60px 25px 60px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* .learn a:hover{
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+ }
+  */
+
+.signature{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 90px;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.signature .signature_1 h3{
+    color: coral;
+}
+
+.signature .signature_1{
+    width: 100%;
+}
+
+.signature .signature_2{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.signature .sign{
+    width: 130px;
+    height: 130px;
+}
+
+#last{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#last h1{
+    font-size: 60px;
+    font-weight: 40px;
+    color: coral;
+    padding: 30px;
+    margin: 0;
+}
+
+.last{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.last .phone-box{
+    padding-bottom: 40px;
+}
+
+.last .phone{
+    width: 25px;
+    height: 25px;
+}
+
+.last .phone-box .chat_1{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.last .van{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.location{
+    max-width: 50%;
+    margin: auto;
+}
+
+.location .local{
+    color: coral;
+    font-family: cursive;
+}
+
+.location p{
+    font-weight: bolder;
+    max-width: 100%;
+    margin: auto;
+    font-family: cursive;
+    padding: 20px 0 30px 0;
+}
+
+.location h3{
+    padding-top: 20px;
+}
+
+footer{
+    padding-top: 40px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: rgba(70, 68, 68, 0.692);
+}
